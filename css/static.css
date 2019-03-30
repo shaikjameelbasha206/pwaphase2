@@ -1,0 +1,65 @@
+body{
+  background-color: pink;
+  }
+  .left{
+  background-color: #AAE328;
+  width: 30%;
+  border: 5px solid red;
+  border-radius: 5px;
+  text-align: center;
+}
+img{
+  width: 75%;
+}
+.right{
+  width: 70%;
+  border: 2px solid gray;
+  border-radius: 5px;
+  /* margin: 1%; */
+
+}
+.parent{
+  display: flex;
+}
+table{
+  width: 30%;
+}
+table{
+  border: 1px solid blue;
+}
+table,th,td{
+  border: 1px solid blue;
+  font-size: 12px;
+}
+table tr:nth-child( even){
+  background: yellow;
+}
+@media screen and (max-width:767px) {
+.parent{
+  /* background-color: red; */
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  font-size: italic;
+  background-color:#28C6E3;
+  padding: 0%;
+  margin: 0%;
+}
+
+.left,.right{
+  /* background-color: red; */
+  width:100%;
+  padding: 0%;
+  margin: 0%;
+}
+table{
+  font-size: 10px;
+}
+}
+/* @media screen and (min-width:768px) and (max-width:1024px) {
+.parent{
+  flex-wrap: wrap;
+}
+.left{
+  width:30%;
+} */

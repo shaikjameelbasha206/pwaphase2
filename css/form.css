@@ -1,0 +1,45 @@
+body{
+  background:#33F0FF;
+
+}
+.parent{
+  width: 100%
+  border:2px solid #BF0C20;
+  display: flex;
+  flex-wrap: wrap;
+}
+.career{
+  background:#C6E872;
+  width: 90%;
+  border: 2px solid #BF0C20;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+}
+.details{
+  background:#C6E872 ;
+  width: 40%;
+  margin: 2%;
+  border: 2px solid #BF0C20;
+  padding: 2%;
+  text-align: center;
+}
+.skills{
+  background:#C6E872;
+  width: 90%;
+  border: 2px solid #BF0C20;
+  margin: 2%;
+  border: 2px solid #BF0C20;
+  padding: 2%;
+  text-align: center;
+}
+#button{
+  font-weight: 80%;
+  font-size: 20px;
+  margin: 2%;
+  text-align: center;
+}
+input,select{
+  width: 80%;
+  margin: 2px;
+}
